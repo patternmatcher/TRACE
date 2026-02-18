@@ -58,11 +58,11 @@ python baseline_correspondence_n50.py
 
 ## Paper Numbers to Verify
 
-1. **loop↔autocorr**: r=0.44, p=0.001 (N=50 baseline)
-2. **Layer 5 dominance**: +137.7 intro_delta (~8× next best layer)
-3. **Refusal orthogonality**: cos=0.063, angle=86.4°
-4. **Steering effect**: 6→952 introspective pulls (deflationary→steered)
-5. **Transfer**: Cohen's d=8.87
+1. **loop↔autocorr**: r=0.44, p=0.002 (N=50 baseline, Section 4.4)
+2. **Layer 5 dominance**: +137.7 intro_delta, ~8× next best layer (Section 4.3)
+3. **Refusal orthogonality**: cos=0.063, angle=86.4° (Section 4.3)
+4. **Steering effect (70B)**: pooled d=0.59, p=0.00006 (N=200, Section 4.2)
+5. **Transfer**: Cohen's d=4.27 [95% CI: 3.08–6.51], p<10⁻⁶ (N=40, Section 4.1)
 
 ## Contact
 
